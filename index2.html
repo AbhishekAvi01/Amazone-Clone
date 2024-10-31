@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+    <script>
+        let body= document.querySelector('body')
+        let para = document.createElement('p');
+        para.innerText="Hey i am red";
+        body.append(para);
+        para.style.color='red';
+
+        let headh3=document.createElement('h3');
+        headh3.innerText="i am blueh3"
+        body.append(headh3);
+        headh3.style.color="blue";
+
+        let div=document.createElement('div');
+        body.append(div);
+        div.style.border="2px solid black";
+        div.style.backgroundColor="yellow";
+
+        let h3= document.createElement('h3');
+        h3.innerText="I am a div"
+      div.append(h3);
+      let newp = document.createElement('p');
+      newp.innerText="me too;"
+      div.append(newp);
+    </script>
+</body>
+</html>

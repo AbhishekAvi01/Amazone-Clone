@@ -1,0 +1,15 @@
+.blogcontainer{
+    margin: 10px 88px;
+    color: white;
+}
+.blogitem{
+margin: 20px;
+font-family: "SUSE", sans-serif;
+}
+.blogcontainer h1{
+    font-family: "SUSE", sans-serif;
+    margin: 23px;
+}
+.blogitem p{
+    font-family: "Sofadi One", system-ui;
+}

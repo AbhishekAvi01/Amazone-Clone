@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    max-width: 85vw;
+    padding: 2rem 1rem;
+    
+    margin: 0 auto;
+    
+    
+}
+a{
+    text-decoration: none;
+}
+.header_container{
+    margin-bottom:2.5rem ;
+}
+.header_tittle{
+   margin-bottom: 1rem; 
+   font-size: 1.8rem;
+   line-height: 2rem;
+   font-weight: 700;
+   text-align: center;
+   
+}
+.header_para{
+    max-width: 568px;
+    text-align: center;
+    color: rgb(106, 101, 101);
+    margin: 0 auto;
+}
+.main_container{
+    display: grid;
+    gap: 1.1rem;
+    grid-template-columns: repeat(1,1fr);
+   
+}
+@media (min-width:650px){
+    .main_container{
+    grid-template-columns: repeat(2,1fr);
+}
+}
+
+@media (min-width:1080px){
+    .main_container{
+    grid-template-columns: repeat(3,1fr);
+}
+}
+@media (min-width:1340px){
+    .main_container{
+    grid-template-columns: repeat(4,1fr);
+}
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card_image_container{
+    position: relative;
+    overflow: hidden;
+    height: 16rem;
+}
+.card_image{
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.card_title_container{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+}
+.card_container:hover .card_image{
+    transform: scale(1.1);
+    transition-duration: 200ms;
+}
+.card_title{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(32, 31, 31);
+    line-height: 1.5rem;
+    margin-bottom: 0.4rem;
+    text-align: center;
+
+}
+.card_title:hover{
+    color: blue;
+}
+.card_disc{
+    color: rgb(99, 96, 96);
+    font-size: 1rem;
+    text-align: center;
+}
+.card_footer_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+    border-radius: 200px;
+}
+.auther_avtar{
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+    border-radius: 200px;
+    
+}
+.auther_container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5rem;
+    justify-content: space-between;
+}
+.card_tag_container{
+    border: 1px solid black;
+    font-size: 2m;
+    padding: 5px;
+    margin: 10px;
+    font-weight: 800;
+    border-radius: 5px;
+}
+.card_tag_container:hover{
+    background-color: bisque;
+}
+
+.auther_info_container{
+    display: flex;
+    flex-direction: column;
+}
+#auther_name{
+    font-size: 1rem;
+    font-weight: 700;
+}
+#auther_name:hover{
+    color: blue;
+}
+#auther_date:hover{
+    color: aqua;
+    font-weight: 500;
+}
+

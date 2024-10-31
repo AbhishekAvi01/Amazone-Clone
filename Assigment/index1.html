@@ -1,0 +1,50 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <script>
+
+//  create a new input and button element on the page using javascript only using javascript .set the text button to "Click me"
+
+        let input= document.createElement('input');
+        let btn = document.createElement('button');
+        btn.innerText="Click me "
+        let body= document.querySelector('body');
+        body.append(btn);
+        body.append(input);
+
+//--------------------------------------------------------------------------
+    // add following attributes to the element
+    // -> change placeholder value of input to "User Name"
+    // ->change the id of button to "btn"
+      btn.setAttribute('id','btn1');
+      input.setAttribute('placeholder', 'User Name')
+
+//----------------------------------------------------------------------
+// Access the btn using the queryselector and button id change the background color to blue and text color to white
+   let btn2= document.querySelector("#btn1");
+   btn2.classList.add("btnS")
+
+
+   //---------------------------------------------------------------------------
+   // create an h1 element on the page and set its text to "Dom practice"  underlined change its color to purple;
+   let h1 = document.createElement("h1");
+   h1.innerHTML= "<u>Dom Practice</u>";
+   body.append(h1);
+
+   //-------------------------------------------------------------------------
+   //create a p tag on the page and set its text to "Apna college delta practice" where delta is bold
+   let para = document.createElement('p');
+   para.innerHTML="Apna college <b> detta</b> practice";
+   body.append(para)
+  
+        </script>
+</body>
+</html>

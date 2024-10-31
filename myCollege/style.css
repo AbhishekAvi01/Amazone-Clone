@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body,html{
+    font-family: Roboto, sans-serif,Arial;
+    background-color: #f0f3fa;
+   
+}
+.width-100{
+ width: 100%;
+ float: left;
+}
+.container{
+    width: 1500px;
+    margin: 0px auto;
+
+}
+.top-header{
+    /* background-color: #2196f3; */
+    /* background-color: rgb(207, 98, 98); */
+    background-color: red;
+    padding: 5px 0px;
+    border-bottom: 2px solid red;
+}
+.news-list{
+    background-color: #fff;
+    color:red;
+    border: 2px solid black;
+    padding: 6px;
+    font-size: 20px;
+    top: 10px;
+
+}
+.headquoto{
+    font-size: 20px;
+    color: white;
+    width: 80%;
+}
+.header-menu{
+    background-color: rgb(183, 99, 104);
+    position: relative;
+    box-shadow: 0px 2px 5px 0px #00000036;
+  
+}
+.logo{
+    width: fit-content;
+    float: left ;
+
+}
+.main-menu {
+list-style: none;
+float: right;
+margin-top: 20px;
+}
+.main-menu a{
+   font-weight: 500;
+   color: #3a3a3a;
+   font-size: 20px;
+   text-decoration: none;
+   color: #f0f3fa;
+
+}
+.main-menu li{
+    float: left;
+    padding: 12px 15px;
+    
+}
+.slider-width{
+    width: 100%;
+    height: auto;
+}
+.margin-top-50{
+margin-top: 50px;
+}
+.width-33{
+     width: 33%;
+    float: left; 
+
+}
+.letest-news{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    padding: 20px;
+    height: 650px;
+    margin-bottom: 30px;
+    
+
+}
+
+.heading-section{
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #cfcfcf;
+    padding-bottom: 0px;
+    margin: 0px;
+    margin-bottom: 15px;
+    border: 1px solid #cfcfcf;
+    padding-top: 15px;
+    padding-left: 15px;
+    background-color: #00aed9;
+    color: white;
+
+}
+.heading-tittle{
+margin: 0px;
+padding: 0px;
+font-size: 16px;
+font-weight: 600;
+padding-bottom: 5px;
+}
+.letest-news-ul{
+ padding: 0px;
+ list-style: none;
+ line-height: 30px
+}
+.letest-news-upcoming{
+    padding: 0px;
+    list-style: none; 
+    line-height: 30px
+}
+.useful{
+    margin: 10px;
+}

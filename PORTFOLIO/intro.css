@@ -1,0 +1,52 @@
+.intro{
+    margin: 10px 88px;
+    color: white;
+}
+.intro h2{
+    font-family: "SUSE", sans-serif;
+    margin: 12px;
+    
+}
+.intro p{
+    font-family: "Sofadi One", system-ui;
+    margin: 12px;
+}
+.skillcontainer{
+    padding: 12px;
+
+}
+.skill{
+    width: 265px;
+    height: 2x;
+
+    background-color: red;
+}
+.skillitem{
+    display: flex;
+    margin: 20px;
+}
+.hundred{
+width: 265;
+background-color: green;
+border: 1px solid black;
+    border-radius: 14px;
+}
+.eighty{
+    width: 200px;
+    background-color: blue;
+    border: 1px solid black;
+    border-radius: 14px;
+}
+.fifty{
+width: 125px;
+background-color: aqua;
+border: 1px solid black;
+    border-radius: 14px;
+    
+}
+.t5{
+    width: 75px;
+    background-color:red;
+    border: 1px solid black;
+    border-radius: 14px;
+}

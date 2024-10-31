@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color:rgb(183, 179, 179);
+    /* width: 10vw; */
+    /* width: 434px; */
+    /* height: 100vh; */
+    font-family: "SUSE", sans-serif;
+    transition: transform 0.3s ease-in;
+   
+}
+.sidebargo{
+    transform: translate(-423px,0px);
+    position: absolute;
+ 
+}
+.sidebar nav{
+    padding: 45px;
+    height: 100vh;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+   text-decoration: none;
+   color:black;
+}
+ 
+.main{
+    /* background-color:yellow; */
+    width: 90vw;
+    margin-left: 40px;
+}
+.container{
+    display: flex;
+    background: url(https://cdn.dribbble.com/users/4318/screenshots/55244/media/7eb84e59270d5214f4193275b7c935ba.jpg?resize=400x300&vertical=center);
+    background-size: cover;
+    opacity: 0.9;
+
+    
+    
+}
+.infocontainer{
+    /* background-color: rgb(166, 27, 94); */
+    height: 65vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* font-family: "Source Code Pro", monospace; */
+    font-family: "Sofadi One", system-ui;
+    color: white;
+}
+.Hello{
+font-size: 3em;
+}
+.name{
+  font-size: 50px;
+  font-weight: bold; 
+  font-family: "SUSE", sans-serif;
+  
+}
+.about{
+    font-size: 40px;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: "SUSE", sans-serif;
+
+}
+.buttons{
+   margin-top: 2.2em;
+   font-size: 16px;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 3px 3px;
+
+}
+.buttons button:hover{
+    color:dodgerblue;
+    background-color: white;  
+}
+.devpic img{
+    width: 390px;
+    height: 65vh;
+   
+}
+.devinfo{
+    font-size: 10px;
+}
+.devpic img{
+    border: 1px solid black;
+    border-radius: 50%;
+    background: url(https://cdn.pixabay.com/photo/2022/09/01/14/18/white-background-7425604_640.jpg);
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    margin-top: 10px;
+}
+.cross{
+   margin-left: 165px;
+   margin-top: 10px;
+}
+@media(max-width:850px){
+    .buttons{
+        font-size: 5px;
+    }
+    .devpic{
+        display: none;
+    }
+}

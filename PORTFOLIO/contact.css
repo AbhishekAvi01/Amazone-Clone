@@ -1,0 +1,53 @@
+.contactform{
+    font-family: "SUSE", sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+    color: white;
+
+}
+.contactform form{
+    margin: 0px 44px;
+}
+.contactform h1{
+    font-family: "Sofadi One", system-ui;
+    padding: 12px 0;
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+.contactform form div input{
+    width: 16vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+#emailHelp{
+    font-size: 10px;
+    color: midnightblue;
+    margin: 0 5;
+}
+#form-check {
+flex-direction: row;
+}
+
+#form-check input {
+    width: 24px;
+    margin: 3px 0;
+    
+}
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+
+}
+.btn:hover{
+    color:dodgerblue;
+    background-color: white;  
+}

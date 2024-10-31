@@ -1,0 +1,127 @@
+
+.Header_container{
+    height: 80px;
+    width: 100%;
+    margin: 0px;
+    padding: 0 180px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(226, 226, 231);
+    position: fixed;
+    top: 0px;
+    
+}
+.location{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 0 4px 20px;
+    width: 225px;
+    height: 24px;
+    
+    
+}
+.location p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -0.3px;
+    color: rgba(2, 6, 12, 0.75);
+    font-family: "IBM Plex Sans Arabic", sans-serif;
+    margin: 0px 4px;
+    
+}
+
+.location img{
+    height: 20px;
+    width: 20px;
+}
+.searchbar{
+    height: 56px;
+    width: 500px;
+    display: flex;
+    align-items: center;
+    margin: 12px 0px;
+    margin-left: 100px;
+   
+}
+.serachbox{
+    height: 40px;
+    width: 100%;
+
+}
+.searchbar .serachbox input{
+    height: 24px;
+    width: 100%;
+    padding: 8px 8px 8px 16px;
+    border-radius: 10px;
+    font-size: 1rem;
+
+}
+.user_logo{
+    height: 26px;
+    width: 26px;
+    margin-left: 20px;
+}
+.user_logo img{
+    height: 100%;
+    width: 100%;
+}
+.head_content{
+    height: 304px;
+    background-image: url('bg.avif');
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    box-sizing: border-box;
+     border-radius: 0 0 25px 25px;
+     margin: 0;
+}
+.head_food img{
+    height: 301px;
+    width: 501px;
+    padding-top: 50px;
+}
+.head_text{
+    height: 96px;
+    font-size: 48px;
+    line-height: 0.1px;
+    font-family: "Bevan", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #02060CBF;
+}
+.head_item{
+    height: 256px;
+    width: 1155px;
+    box-sizing: border-box;
+    padding: 16px;
+    background-color: white;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+}
+.head_item_box{
+    height: 180px;
+    width: 144px;
+    box-sizing: border-box;
+   
+}
+.head_item_box img{
+    height: 180px;
+    width: 144px;
+}
+.head_item_para p{
+     font-size: 34px;
+     text-align: center;
+     font-family: "Odor Mean Chey", serif;
+     font-weight: 400;
+     font-style: normal;
+     line-height: 0.1px;
+     color: #02060CBF;
+}

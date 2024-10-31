@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Aryan Abhishek</h1>
+    <img id="pic" src="mypic.jpg" alt="" srcset="">
+    <p>Lorem ipsum dolor sit amet <b>Abhishek</b>consectetur adipisicing elit. Vel <u style="display: none;">Aryan</u>obcaecati aliquid perferendis? Tempora reprehenderit voluptatibus quasi odit quod deserunt nam doloremque minima fugit libero recusandae soluta corrupti modi amet ipsam vero cum, nulla dolorum dolor qui? Fugit accusamus repellat reiciendis numquam omnis est dicta doloremque consequuntur! Cumque neque sunt qui?</p>
+   <div class="box">
+    <ul>
+      <li><a class="box-link" href="">Youtube</a></li>
+      <li><a class="box-link" href="">facebook</a></li>
+      <li><a class="box-link" href="">instagram</a></li>
+    </ul>
+    <ul>
+      <li><a class="box-link" href="">Youtube</a></li>
+      <li><a class="box-link" href="">facebook</a></li>
+      <li><a class="box-link" href="">instagram</a></li>
+    </ul>
+    <ul>
+      <li><a class="box-link" href="">Youtube</a></li>
+      <li><a class="box-link" href="">facebook</a></li>
+      <li><a class="box-link" href="">instagram</a></li>
+    </ul>
+   </div>
+    <script>
+      let para=document.querySelector('p');
+    //   para.innerText="Abhishek";
+
+        let heading = document.querySelector('h1');
+        heading.style.color="red";
+        heading.style.border="2px solid black"
+        heading.style.textAlign="center"
+        heading.style.borderRadius="20px";
+        heading.style.boxShadow="4px 5px 4px black";
+
+
+        let links = document.querySelectorAll(".box a");
+        for(link of  links){
+          link.style.color="red"
+        }
+        // for(let i=0; i< links.length; i++){
+        //   links[i].style.color="green";
+        // }
+
+        
+    </script>
+</body>
+</html>
