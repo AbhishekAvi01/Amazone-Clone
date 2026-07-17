@@ -26,3 +26,14 @@ arr.forEach(button=>{
     })
    
 })
+
+
+
+//---------------practice self------------------------------------------------------------
+// const input = document.querySelector('#inputbox');
+// const buttons =document.querySelectorAll('button');
+
+// buttons=Array.from(buttuons);
+// for(btn of buttons){
+//     console.log(btn);
+// }

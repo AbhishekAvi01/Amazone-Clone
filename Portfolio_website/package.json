@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "typeit": "^8.8.7"
+  },
+  "scripts": {
+    "build": "vite build",
+    "dev": "vite"
+  }
+}
